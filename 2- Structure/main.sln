@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_world_ui", "2. Asp.Net Core\hello_world_ui.csproj", "{C2896278-2816-41AA-B5A6-4FA8495AB7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empty_template", "HelloWepAPI_emptyTemplate\empty_template.csproj", "{484F0479-730F-475F-B1A2-646B3E6A6307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2896278-2816-41AA-B5A6-4FA8495AB7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2896278-2816-41AA-B5A6-4FA8495AB7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2896278-2816-41AA-B5A6-4FA8495AB7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2896278-2816-41AA-B5A6-4FA8495AB7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484F0479-730F-475F-B1A2-646B3E6A6307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484F0479-730F-475F-B1A2-646B3E6A6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484F0479-730F-475F-B1A2-646B3E6A6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484F0479-730F-475F-B1A2-646B3E6A6307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54085339-922C-4C70-B88A-67CE3CE8F86D}
+	EndGlobalSection
+EndGlobal
