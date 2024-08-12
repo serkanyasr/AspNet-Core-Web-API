@@ -11,8 +11,8 @@ namespace Entities.DataTransferObjects
     {
 
         [Required(ErrorMessage ="Title is a required field.")]
-        [MinLength(2 , ErrorMessage ="Title must consist og at least two character")]
-        [MaxLength(50, ErrorMessage = "Title must consist og at maxium 50 character")]
+        [MinLength(2 , ErrorMessage ="Title must consist of at least two character")]
+        [MaxLength(50, ErrorMessage = "Title must consist of at maxium 50 character")]
         public String Title { get; init; }
 
         [Required(ErrorMessage = "Price is a required field.")]

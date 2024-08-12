@@ -46,16 +46,7 @@ namespace Services
 
         public async Task DeleteOneBookAsync(int id, bool trackChanges)
         {
-            var entity = await _manager.Book.GetOneBookByIdAsync(id , trackChanges);
-
-            if (entity is null)
-
-            {
-                string message = $"book with id : {id} could not found";
-                _logger.LogInfo(message);
-                throw new Exception(message);
-
-            }
+            var entity = await GetOneBookByIdAndCheckExists(id, trackChanges);
 
             _manager.Book.DeleteOneBook(entity);
             await _manager.SaveAsync();
@@ -73,36 +64,35 @@ namespace Services
 
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
         {
-            var entity = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
+            var entity = await GetOneBookByIdAndCheckExists(id, trackChanges);
 
-            if (entity == null)
-            {
-                string message = $"book with id : {id} could not found";
-                _logger.LogInfo(message);
-                throw new Exception(message);
-            }
             return _mapper.Map<BookDto>(entity);
         }
 
         public async Task UpdateOneBookAsync(int Id , BookDtoUpdate bookDto, bool trackChanges)
         {
-            var  entity = await _manager.Book.GetOneBookByIdAsync(Id, trackChanges);
+            var entity = await GetOneBookByIdAndCheckExists(Id, trackChanges);
 
-            if (entity == null)
-            {
-                string message = $"book with id : {Id} could not found";
-                _logger.LogInfo(message);
-                throw new Exception(message);
-            }
-
-            //Mapping
-
-            //entity.Title = book.Title;
-            //entity.Price = book.Price;
             _mapper.Map(entity, bookDto);
 
             _manager.Book.Update(entity);
             await _manager.SaveAsync();
+
+        }
+
+        private async Task<Book> GetOneBookByIdAndCheckExists(int id , bool trackChanges )
+        {
+            var entity = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
+
+            if (entity is null)
+
+            {
+                string message = $"book with id : {id} could not found";
+                _logger.LogInfo(message);
+                throw new Exception(message);
+
+            }
+            return entity;
 
         }
     }

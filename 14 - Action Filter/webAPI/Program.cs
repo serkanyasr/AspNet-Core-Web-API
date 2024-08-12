@@ -1,6 +1,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 using NLog;
+using Presentations.ActionFilters;
 using Services.Contracts;
 using webAPI.Extensions;
 
@@ -24,6 +25,9 @@ builder.Services.AddControllers(conf =>
 .AddXmlDataContractSerializerFormatters()
 .AddApplicationPart(typeof(Presentations.AssemblyReference).Assembly);
 
+
+builder.Services.AddScoped<ValidatioFilterAttribute>(); // IoC
+
 builder.Services.Configure<ApiBehaviorOptions>(conf =>
 conf.SuppressModelStateInvalidFilter = true
 );
@@ -35,9 +39,9 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
+builder.Services.ConfigureActionFilters();
 
 builder.Services.AddAutoMapper(typeof(Program));
-
 
 
 var app = builder.Build();

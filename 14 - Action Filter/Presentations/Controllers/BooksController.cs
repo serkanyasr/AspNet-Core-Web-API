@@ -2,6 +2,7 @@
 using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Presentations.ActionFilters;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,8 @@ using System.Threading.Tasks;
 
 namespace Presentations.Controllers
 {
+
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [ApiController]
     [Route("api/books")]
     public class BooksController : ControllerBase
@@ -54,53 +57,32 @@ namespace Presentations.Controllers
         }
 
 
+
+        [ServiceFilter(typeof(ValidatioFilterAttribute))]
         [HttpPost]
         public async Task<IActionResult> AddOneBookAsync([FromBody] BookDtoForInsertion BookDto)
         {
-         
-            if (BookDto is null)
-                return BadRequest();
-
+       
            var book = await _manager.BookService.CreateOneBookAsync(BookDto);
-
-
             return StatusCode(201, book);
-
-  
 
         }
 
-
+        [ServiceFilter(typeof(ValidatioFilterAttribute))]
         [HttpPut("id:int")]
         public async Task<IActionResult> UpdateOneBook([FromBody] BookDtoUpdate bookDto, [FromRoute(Name = "id")] int id)
         {
-            if (bookDto is null)
-                return BadRequest();
-
-            if (!ModelState.IsValid)
-                return UnprocessableEntity(ModelState); //422
-
-            var entity = await _manager.BookService.GetOneBookByIdAsync(id, true);
-            if (entity is null)
-                return NotFound();
 
             await _manager.BookService.UpdateOneBookAsync(id, bookDto, true);
-
             return NoContent();
-
 
         }
 
+        [ServiceFilter(typeof (ValidatioFilterAttribute))]
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteOneBookAsync([FromRoute(Name = "id")] int id)
         {
          
-                var entity = await _manager.BookService.GetOneBookByIdAsync(id, false);
-
-
-                if (entity == null)
-                    return NotFound();
-
                 await _manager.BookService.GetOneBookByIdAsync(id, false);
                 return NoContent();
 
