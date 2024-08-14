@@ -1,6 +1,7 @@
 ﻿using Entities.DataTransferObjects;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeature;
 using Microsoft.AspNetCore.Mvc;
 using Presentations.ActionFilters;
 using Services.Contracts;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Presentations.Controllers
@@ -28,14 +30,13 @@ namespace Presentations.Controllers
 
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllBooksAsync()
+        public async Task<IActionResult> GetAllBooksAsync([FromQuery] BookParameters bookParameters)
         {
  
-            var bookList = await _manager.BookService.GetAllBooksAsync(false);
+            var pagedResult = await _manager.BookService.GetAllBooksAsync(bookParameters , false);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
 
-            return Ok(bookList);
-
-            
+            return Ok(pagedResult.Item1);
 
 
         }
