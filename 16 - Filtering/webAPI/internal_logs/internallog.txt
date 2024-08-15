@@ -1,0 +1,88 @@
+2024-07-26 09:48:31.1959 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-26 09:48:31.2321 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-26 09:48:31.2449 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\syasar\OneDrive - Coskunoz Holding\DotNetAPI\7- Layered Architecture\webAPI\bin\Debug\net7.0\NLog.config
+2024-07-26 09:48:31.2573 Info Configuration initialized.
+2024-07-29 08:08:41.4777 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-29 08:08:41.5004 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-29 08:08:41.5137 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\syasar\Desktop\deneme\AspNet-Core-Web-API\9 - Global Error Management\webAPI\bin\Debug\net7.0\NLog.config
+2024-07-29 08:08:41.5263 Info Configuration initialized.
+2024-07-29 08:14:10.8020 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-29 08:14:10.8161 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-29 08:14:10.8290 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\syasar\Desktop\deneme\AspNet-Core-Web-API\9 - Global Error Management\webAPI\bin\Debug\net7.0\NLog.config
+2024-07-29 08:14:10.8439 Info Configuration initialized.
+2024-07-29 08:33:50.1897 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-29 08:33:50.2202 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-29 08:33:50.2360 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\syasar\Desktop\deneme\AspNet-Core-Web-API\9 - Global Error Management\webAPI\bin\Debug\net7.0\NLog.config
+2024-07-29 08:33:50.2492 Info Configuration initialized.
+2024-07-29 08:34:06.7281 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-29 08:34:06.7426 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-29 08:34:06.7548 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\syasar\Desktop\deneme\AspNet-Core-Web-API\9 - Global Error Management\webAPI\bin\Debug\net7.0\NLog.config
+2024-07-29 08:34:06.7698 Info Configuration initialized.
+2024-07-29 08:38:47.0028 Info AppDomain Shutting down. LogFactory closing...
+2024-07-29 08:38:47.0195 Info LogFactory has been closed.
+2024-08-05 10:53:17.3083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 10:53:17.3384 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 10:53:17.3384 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\10 - Auto Mapper\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 10:53:17.3643 Info Configuration initialized.
+2024-08-05 10:53:54.3055 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 10:53:54.3333 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 10:53:54.3488 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\10 - Auto Mapper\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 10:53:54.3637 Info Configuration initialized.
+2024-08-05 11:02:49.3172 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:02:49.3420 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:02:49.3420 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:02:49.3715 Info Configuration initialized.
+2024-08-05 11:06:16.6873 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:06:16.7113 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:06:16.7250 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:06:16.7407 Info Configuration initialized.
+2024-08-05 11:06:34.3523 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:06:34.3673 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:06:34.3673 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:06:34.3917 Info Configuration initialized.
+2024-08-05 11:06:44.4742 Info AppDomain Shutting down. LogFactory closing...
+2024-08-05 11:06:44.4896 Info LogFactory has been closed.
+2024-08-05 11:07:22.5427 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:07:22.5581 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:07:22.5726 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:07:22.5886 Info Configuration initialized.
+2024-08-05 11:09:23.7468 Info AppDomain Shutting down. LogFactory closing...
+2024-08-05 11:09:23.7638 Info LogFactory has been closed.
+2024-08-05 11:27:03.8111 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:27:03.8424 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:27:03.8592 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:27:03.8741 Info Configuration initialized.
+2024-08-05 11:34:08.8910 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:34:08.9077 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:34:08.9223 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:34:08.9367 Info Configuration initialized.
+2024-08-05 11:34:27.0681 Info AppDomain Shutting down. LogFactory closing...
+2024-08-05 11:34:27.0853 Info LogFactory has been closed.
+2024-08-05 11:34:36.8100 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 11:34:36.8257 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 11:34:36.8397 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 11:34:36.8537 Info Configuration initialized.
+2024-08-05 13:33:14.4404 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-05 13:33:14.4713 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-05 13:33:14.4953 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\11 -Content Negotiation\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-05 13:33:14.5159 Info Configuration initialized.
+2024-08-05 13:33:22.9249 Info AppDomain Shutting down. LogFactory closing...
+2024-08-05 13:33:22.9428 Info LogFactory has been closed.
+2024-08-12 15:26:37.8924 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-12 15:26:37.9412 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-12 15:26:37.9759 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\14 - Action Filter\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-12 15:26:38.0051 Info Configuration initialized.
+2024-08-14 09:03:56.7979 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-14 09:03:56.8378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-14 09:03:56.8610 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\15 - Pagination\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-14 09:03:56.8808 Info Configuration initialized.
+2024-08-14 15:59:17.2566 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-14 15:59:17.2912 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-14 15:59:17.3103 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\15 - Pagination\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-14 15:59:17.3345 Info Configuration initialized.
+2024-08-14 16:00:07.6809 Info AppDomain Shutting down. LogFactory closing...
+2024-08-14 16:00:07.7028 Info LogFactory has been closed.
+2024-08-14 16:20:56.7269 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-14 16:20:56.7481 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-14 16:20:56.7680 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\GitHub\AspNet-Core-Web-API\AspNet-Core-Web-API\15 - Pagination\webAPI\bin\Debug\net7.0\NLog.config
+2024-08-14 16:20:56.7889 Info Configuration initialized.
